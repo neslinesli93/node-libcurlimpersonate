@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    volumes:
+    - $PWD:/home/app/src
+    # ports:
+    #   - "8000:5000"
